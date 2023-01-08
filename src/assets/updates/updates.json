@@ -1,5 +1,4 @@
-[
-  {
+[{
     "title": "Welkom op Majestum Kingdom!",
     "description": "Momenteel zijn wij druk bezig met het development van onze eigen Minecraft Kingdom server! Ons doel is om een professionele en gezellige community te creëren waarin jij je gelijk thuis in kan voelen! Ons staffteam bestaat uit meerdere ervaren leden en zijn stuk voor stuk gemotiveerd om aan jullie de beste Kingdom ervaring te leveren!",
     "imageUrl": "/assets/updates/welkom-op-majestum-kingdom.jpg",
@@ -12,5 +11,12 @@
     "imageUrl": "/assets/updates/de-eerste-sneak-peek.jpg",
     "discordUrl": "https://discord.com/channels/1033821151614468146/1039233794609250396/1059900270466842665",
     "date": "2023-01-03T12:00:00"
+  },
+  {
+    "title": "Huidige status van Majestum",
+    "description": "Ongetwijfeld zitten jullie momenteel met enorm veel vragen. Met deze mededeling willen we jullie graag op de hoogte stellen van onze huidige progressie. Ons fantastische bouwteam is momenteel volop bezig aan de warp spawn. Er zijn al enkele kleine sneakpeaks gedeeld eerder deze week. In de nabije toekomst zullen we ook nog soort gelijke sneakpeaks blijven bezorgen! Verder zijn we ook bezig aan een kingdom concept. Gebaseerd op het concept dat iedereen kent maar dan met onze eigen twists. Om dit mogelijk te maken werken we aan een eigen, custom kingdom plugin. Dit gaat goed vooruit, maar er staan nog veel leuke features op de planning! Heb je zelf nog een geweldig idee? Aarzel niet om een ticket aan te maken en het met ons te delen. Wie weet zien we jouw idee binnenkort wel in #polls? We willen jullie graag een goede kingdom ervaring bieden en vertrouwen op jullie geduld. We leggen daarop ook de nadruk op kwaliteit en minder op kwantiteit of snelheid. Blijf up-to-date door onze Discord en/of website (https://majestumkingdom.nl/) in de gaten te houden. Jullie zijn nu een beetje up-to-speed. Volgende week zal er duidelijk worden wat de planning is voor de aankomende tijd. We stellen jullie geduld alvast op de proef!",
+    "imageUrl": "/assets/updates/huidige-status-majestum.jpg",
+    "discordUrl": "https://discord.com/channels/1033821151614468146/1039233794609250396/1061715794465132687",
+    "date": "2023-01-08T12:00:00"
   }
 ]
