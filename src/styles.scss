@@ -1,0 +1,90 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+@import "scss/palettes";
+$mkd-website-primary: mat.define-palette($mkd-primary-palette);
+$mkd-website-accent: mat.define-palette($mkd-accent-palette);
+
+// The warn palette is optional (defaults to red).
+$mkd-website-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$mkd-website-theme: mat.define-light-theme((
+  color: (
+    primary: $mkd-website-primary,
+    accent: $mkd-website-accent,
+    warn: $mkd-website-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($mkd-website-theme);
+
+/* You can add global styles to this file, and also import other style files */
+@import "scss/colors";
+@import "scss/sizes";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 12px;
+}
+
+body {
+  background-color: $mkd-primary;
+  font-family: "Poppins", "Montserrat", "Roboto", "Arial", "Helvetica", sans-serif;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+.success-snackbar {
+  .mdc-snackbar__surface {
+    background-color: #7A750A !important;
+    text-align: center;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+@media (min-width: $size-md) {
+  body, html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: $size-lg) {
+  body, html {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+}

@@ -1,0 +1,20 @@
+<div class="background">
+  <div class="container">
+    <div class="vignet"></div>
+    <img src="../../../assets/logo.png" alt="Logo Majestum Kingdom" class="img">
+    <div class="info">
+      <img src="../../../assets/minecraft.svg" alt="Logo Minecraft">
+      <div (click)="copy(serverIp)">
+        <p>{{ amountPlayers }} players online</p>
+        <p>{{ serverIp }}</p>
+      </div>
+    </div>
+    <div class="info">
+      <img src="../../../assets/discord.svg" alt="Logo Discord">
+      <div (click)="copy('https://' + discordUrl)">
+        <p>{{ amountUsers }} users online</p>
+        <p>{{ discordUrl }}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>Aankondigingen & Updates</h1>
+  <div class="items">
+    <div class="item" *ngFor="let item of items">
+      <div class="image-container">
+        <img [src]="item.imageUrl" alt="Update/Sneakpeak Banner">
+        <div (click)="open(item.discordUrl)">
+          <img src="../../../assets/discord.svg" alt="Discord">
+        </div>
+      </div>
+      <div>
+        <p>
+          <span>{{ item.title }}</span>
+          <span>{{ item.date | date : "dd/MM/yyyy" }}</span>
+        </p>
+        <p>{{ (item.description.length > 100) ? (item.description | slice:0:100) + "..." : (item.description) }}</p>
+      </div>
+    </div>
+    <div class="center" *ngIf="amount < max">
+      <button mat-raised-button color="accent" (click)="more()"><mat-icon>add</mat-icon> Meer</button>
+    </div>
+  </div>
+</div>

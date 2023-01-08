@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+  <div class="container">
+    <div class="logo">
+      <img src="../../../assets/icon.png" alt="Logo Majestum Kingdom">
+    </div>
+    <div class="menu-small pointer d-none" matTooltip="Coming Soon">
+      <mat-icon>menu</mat-icon>
+    </div>
+    <div class="menu-large">
+      <div class="links">
+        <div matTooltip="Coming Soon">Shop</div>
+        <div matTooltip="Coming Soon">Map</div>
+        <div matTooltip="Coming Soon">Wiki</div>
+        <div matTooltip="Coming Soon">Regels</div>
+        <div matTooltip="Coming Soon">Votelinks</div>
+      </div>
+      <div class="search" matTooltip="Coming Soon">
+        <mat-form-field subscriptSizing="dynamic" appearance="fill" floatLabel="auto">
+          <mat-label>Zoeken</mat-label>
+          <mat-icon matPrefix>search</mat-icon>
+          <input matInput [(ngModel)]="search" [disabled]="true">
+        </mat-form-field>
+      </div>
+    </div>
+  </div>
+</mat-toolbar>
