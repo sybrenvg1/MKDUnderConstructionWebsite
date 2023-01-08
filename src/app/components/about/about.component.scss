@@ -23,13 +23,13 @@ video, img {
   border-radius: .5rem;
 }
 
-.container {
+.mkd-container {
   display: flex;
   flex-direction: column;
 }
 
 @media (min-width: $size-md) {
-  .container {
+  .mkd-container {
     flex-direction: row;
     align-items: center;
 
