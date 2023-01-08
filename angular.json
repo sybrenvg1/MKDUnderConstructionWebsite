@@ -15,9 +15,9 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-devkit/build-angular",
           "options": {
-            "outputPath": "dist/mkd-website/browser",
+            "outputPath": "dist/mkd-website",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
