@@ -29,7 +29,7 @@
   background: radial-gradient(circle at center, transparent, black);
 }
 
-.mkd-container {
+.container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -74,7 +74,7 @@
 }
 
 @media (min-width: $size-md) {
-  .mkd-container {
+  .container {
     justify-content: space-between;
   }
 
