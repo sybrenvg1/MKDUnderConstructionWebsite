@@ -12,8 +12,10 @@
     <div class="info">
       <img src="../../../assets/discord.svg" alt="Logo Discord">
       <div (click)="copy('https://' + discordUrl)">
-        <p>{{ amountUsers }} users online</p>
-        <p>{{ discordUrl }}</p>
+        <a [href]="'https://' + discordUrl" target="_blank">
+          <p>{{ amountUsers }} users online</p>
+          <p>{{ discordUrl }}</p>
+        </a>
       </div>
     </div>
   </div>
